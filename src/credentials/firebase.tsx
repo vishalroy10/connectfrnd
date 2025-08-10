@@ -6,13 +6,13 @@ import { getAuth } from 'firebase/auth';
 import { getFunctions } from 'firebase/functions';
 
 export const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_APP_ID,
-  measurementId: process.env.NEXT_PUBLIC_MEASUREMENT_ID,
+ apiKey: "AIzaSyCglU69joF_vomVDOG_vnNe8UYHsnPWjxE",
+  authDomain: "rent-111e2.firebaseapp.com",
+  projectId: "rent-111e2",
+  storageBucket: "rent-111e2.firebasestorage.app",
+  messagingSenderId: "146472004635",
+  appId: "1:146472004635:web:0881ef09fcb373f5fb5cbe",
+  measurementId: "G-2YS9K9QG7Q"
 };
 
 // export const firebaseApp = initializeApp(config);
