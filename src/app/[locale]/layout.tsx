@@ -8,7 +8,7 @@ import Box from '@/components/atoms/box';
 import Audio from '@/components/atoms/audio';
 import AuthProvider from '@/utility/AuthProvider';
 import ModalContext from '@/utility/ModalContext';
-import { usePathname } from 'next/navigation';
+import ClientLayout from './ClientLayout';
 
 // export const metadata: Metadata = {
 //   title: 'Rent Babe',
@@ -23,24 +23,12 @@ export default async function RootLayout({
   params: { locale: string };
 }) {
   const messages = await getMessages();
-  const pathName = usePathname();
 
   return (
     <html lang={locale}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Providers>
-            <AuthProvider pathName={pathName}>
-              <ThemeProvider>
-                <Audio />
-                <ModalContext />
-                {!pathName?.includes('login') && pathName !== 'profile' && <Header />}
-                <Box className={!pathName?.includes('login') && !pathName?.includes('profile') ? 'children' : ''}>
-                  {children}
-                </Box>
-              </ThemeProvider>
-            </AuthProvider>
-          </Providers>
+          <ClientLayout>{children}</ClientLayout>
         </NextIntlClientProvider>
       </body>
     </html>
