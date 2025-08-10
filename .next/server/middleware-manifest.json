@@ -1,6 +1,5 @@
 {
   "version": 3,
-<<<<<<< HEAD
   "middleware": {
     "/": {
       "files": [
@@ -19,7 +18,7 @@
       "assets": [],
       "env": {
         "__NEXT_BUILD_ID": "development",
-        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "4cwp6aEEvy8Vo5h2clEBeJhgw92tRMX6xqBJjGMtGBA="
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "1n8vls+0PLRPUTVAqnuHW+B8ld4tOOrtpMGGfHHDOPA="
       }
     }
   },
@@ -27,9 +26,4 @@
   "sortedMiddleware": [
     "/"
   ]
-=======
-  "middleware": {},
-  "functions": {},
-  "sortedMiddleware": []
->>>>>>> 4f6d7b8b67222da94a41ceead674237a0b325851
 }

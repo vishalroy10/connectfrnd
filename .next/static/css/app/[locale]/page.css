@@ -514,6 +514,8 @@
 }
 
 @media (prefers-color-scheme: dark) {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -608,7 +610,9 @@ input::-webkit-inner-spin-button {
 
 /* Firefox */
 input[type='number'] {
-  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
 }
 
 .loading {
