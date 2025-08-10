@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next build && next start",
     "lint": "next lint",
+    "test": "jest",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "deploy": "firebase deploy"
@@ -64,6 +65,8 @@
     "@storybook/nextjs": "^7.5.0",
     "@storybook/react": "^7.5.0",
     "@storybook/testing-library": "^0.2.2",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
     "@types/negotiator": "^0.6.2",
     "@types/node": "^20.8.7",
     "@types/react": "^18.2.0",
@@ -76,6 +79,9 @@
     "eslint-config-next": "^13.5.5",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-storybook": "^0.6.15",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
     "storybook": "^7.5.0",
     "typescript": "^5"
   }
