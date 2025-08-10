@@ -1,0 +1,176 @@
+.chatSection {
+  padding-top: 0px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+.userListSection {
+  min-width: 300px;
+  max-width: 400px;
+  width: 100%;
+}
+.backArrowHeader {
+  display: flex;
+  padding: 24px 20px 0px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.backArrowButton {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 360px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.userList {
+  height: auto;
+  display: flex;
+  padding: 16px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1 0 0;
+}
+
+.userList > div {
+  width: 100%;
+}
+
+.userListArr {
+  max-height: calc(100vh - 172px);
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+.userListArr > div {
+  width: 100% !important;
+}
+.userListArr::-webkit-scrollbar {
+  display: none !important;
+  scroll-behavior: smooth !important;
+}
+.userListArr > div::-webkit-scrollbar {
+  display: none !important;
+  scroll-behavior: smooth !important;
+}
+
+.chatMsgList {
+  padding: 20px 24px !important;
+}
+.chatMsgListIsChatEnable {
+  padding: 20px 24px !important;
+}
+
+.chatMsgList > div::-webkit-scrollbar {
+  display: none !important;
+  scroll-behavior: smooth !important;
+}
+.chatMsgListIsChatEnable > div::-webkit-scrollbar {
+  display: none !important;
+  scroll-behavior: smooth !important;
+}
+.chatBoxSection {
+  border-left: 1px solid #999;
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.chatBoxHeaderSection {
+  position: sticky;
+  top: 0;
+  height: 92px;
+  display: flex;
+  min-width: 600px;
+  width: 100%;
+  padding: 24px 20px 16px 20px;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid #999;
+}
+.chatBoxBody {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+.chatBodyContent {
+  padding: 20px 24px;
+}
+.alertMsg {
+  width: 100% !important;
+  position: absolute;
+  top: 77px;
+  z-index: 1;
+  /* max-width: 620px; */
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 600px) {
+  .chatSection {
+    grid-template-columns: 1fr;
+    /* max-height: cal(100vh - 68px); */
+  }
+  .userListSection {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .chatView {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* height: calc(100vh - 68px) !important; */
+    height: calc(100vh - 175px) !important;
+  }
+  .chatMsgList > div {
+    /* height: calc(100vh - 292px) !important; */
+    height: calc(100vh - 292px) !important;
+    /* height: calc(100vh - 255px) !important; */
+  }
+  .chatMsgListIsChatEnable > div {
+    height: calc(100vh - 250px) !important;
+  }
+  /* .chatMsgList > div {
+    padding: 20px 0px;
+    max-height: 68vh;
+  } */
+}
+
+@media (max-width: 1024px) {
+  .userListSection {
+    min-width: 340px;
+    max-width: 400px;
+    width: 100%;
+  }
+  .chatView {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* height: calc(100vh - 68px) !important; */
+    height: calc(100vh - 175px) !important;
+  }
+  /* .chatMsgList > div {
+    height: calc(100vh - 292px) !important;
+  } */
+}
+
+
+@media (max-width: 1440px) {
+  .chatView {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* height: calc(100vh - 68px) !important; */
+    height: calc(100vh - 175px) !important;
+  }
+  /* .chatMsgList > div {
+    height: calc(100vh - 292px) !important;
+  } */
+}

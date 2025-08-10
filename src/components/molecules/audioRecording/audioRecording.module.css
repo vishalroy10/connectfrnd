@@ -1,0 +1,77 @@
+.recordingBox {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 8px !important;
+  align-self: stretch !important;
+  padding: 20px 0px !important;
+  border-radius: 12px;
+  border: 1px solid #cccccc;
+}
+
+.recordIcon {
+  font-family: Inconsolata !important;
+  font-size: 28px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+
+.nextButton {
+  margin-top: 20px;
+}
+
+.stopRecordingBoxButton {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+  border-radius: 100px !important;
+  border: 1px solid #e32d2d !important;
+  text-align: center;
+  background: #fff !important;
+  width: fit-content !important;
+  color: #e32d2d !important;
+}
+
+.disableStopRecordingBoxButton {
+  width: fit-content !important;
+  gap: 8px !important;
+}
+
+.recordingBoxButton {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+  border-radius: 100px !important;
+  border: 1px solid #cccccc !important;
+  text-align: center;
+  background: #fff !important;
+}
+
+.recordBox {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 16px;
+  border-radius: 12px;
+  height: 70px;
+  border: 1px solid #ccc;
+}
+
+.recorderPlayer {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px;
+  height: 70px;
+}
+
+.audioBox path {
+  fill: #000;
+}
+
+.audioBox svg {
+  height: 125px !important;
+  display: flex !important;
+  transform: none !important;
+}

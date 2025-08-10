@@ -1,0 +1,36 @@
+.inputFieldBox {
+  margin-top: 20px;
+}
+.formLabel {
+  margin-bottom: 8px !important;
+}
+.usernameInput {
+  width: 100%;
+  background: #fff;
+  border-radius: 100px;
+}
+
+.selectPrivacyBoxForMobile {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .selectPrivacyBoxForMobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .selectPrivacyBoxForMobile {
+    display: block;
+    margin-top: 20px;
+  }
+}
+.birthDetailsBox {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  gap: 12px;
+}
+.genderBirthBox {
+  width: 100%;
+}

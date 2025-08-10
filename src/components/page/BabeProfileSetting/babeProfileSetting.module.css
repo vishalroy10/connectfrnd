@@ -1,0 +1,547 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 76px);
+  height: 100%;
+  background: linear-gradient(293.26deg, rgba(255, 242, 194, 0.17) 0%, #fff7f2 100%, rgba(255, 247, 242, 0.72) 100%);
+}
+
+.steps_sick {
+  margin-left: -15px;
+}
+
+.centeredBox {
+  border-radius: 24px;
+  margin: 100px 0;
+  width: 636px;
+  background: #fff;
+  padding: 40px;
+  height: fit-content;
+  max-width: 636px;
+}
+
+.centeredContent {
+  width: 100%;
+}
+
+.container {
+  margin-top: 24px;
+  max-width: 704px;
+  width: 100%;
+}
+
+.formCard {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  background-color: #f9f9f9;
+}
+
+.flexContainer {
+  display: flex;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.iconBox {
+  padding: 6px;
+}
+
+.textBox {
+  padding: 6px;
+}
+
+.servicesContainer {
+  margin-top: 40px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.infoBox {
+  background: #ecf7fe;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.infoText {
+  padding: 8px 12px;
+  color: #37aaf2;
+}
+
+.servicesBox {
+  margin-top: 20px;
+}
+
+.serviceHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 0 16px 0;
+  align-items: center;
+}
+
+.button {
+  border: 1px solid #cccccc !important;
+  padding: 8px 20px !important;
+  width: fit-content !important;
+}
+
+.nextButton {
+  margin-top: 20px;
+}
+
+.nextButtonInner {
+  height: 48px !important;
+  margin-top: 60px !important;
+  padding: 12px 20px !important;
+  border: 1px solid #cccccc !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  white-space: nowrap !important;
+}
+
+.footerCancelButton {
+  height: 48px !important;
+  padding: 12px 20px !important;
+  border: 1px solid #cccccc !important;
+  box-shadow: 0px 2px 14px 0px #0000001a;
+  /* width: fit-content !important; */
+  white-space: nowrap !important;
+}
+
+.footerDoneButton {
+  height: 48px !important;
+  padding: 12px 20px !important;
+  border: 1px solid #cccccc !important;
+  box-shadow: none !important;
+  /* width: fit-content !important; */
+  white-space: nowrap !important;
+}
+
+/* Add these styles to your external CSS file */
+.firstContainer {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+}
+
+.autocompleteContainer {
+  margin-left: 4px !important;
+  margin-right: 4px !important;
+  border-radius: 8px !important;
+  height: 48px !important;
+}
+
+.buttonContainer {
+  height: 48px !important;
+  margin-top: 60px !important;
+  padding: 12px 20px !important;
+  border: 1px solid #cccccc !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  white-space: nowrap !important;
+}
+
+.submitButtonContainer {
+  height: 48px !important;
+  padding: 12px 20px !important;
+  border: 1px solid #cccccc !important;
+  box-shadow: none !important;
+  /* width: 100% !important; */
+  white-space: nowrap !important;
+}
+
+.selectPrivacyBoxForMobile {
+  display: none;
+}
+
+.rulesBoxContainer {
+  padding: 24px 240px;
+}
+
+.imageBoxContainer {
+  margin-bottom: 24px;
+}
+
+.recordingBox {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 8px !important;
+  align-self: stretch !important;
+  padding: 20px 0px !important;
+  border-radius: 12px;
+  border: 1px solid #cccccc;
+}
+
+.recordingBoxButton {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+  border-radius: 100px !important;
+  border: 1px solid #cccccc !important;
+  text-align: center;
+  background: #fff !important;
+}
+
+.stopRecordingBoxButton {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+  border-radius: 100px !important;
+  border: 1px solid #e32d2d !important;
+  text-align: center;
+  background: #fff !important;
+  width: fit-content !important;
+  color: #e32d2d !important;
+}
+
+.disableStopRecordingBoxButton {
+  width: fit-content !important;
+  gap: 8px !important;
+}
+
+.recordInstructions {
+  color: #999 !important;
+  text-align: center !important;
+  font-family: Helvetica Neue !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  gap: 8px !important;
+}
+
+.recordIcon {
+  font-family: Inconsolata !important;
+  font-size: 28px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+
+.recordBox {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 16px;
+  border-radius: 12px;
+  height: 70px;
+  border: 1px solid #ccc;
+}
+
+.infoBox {
+  border-radius: 12px;
+  background: #ecf7fe;
+  padding: 8px 12px;
+  margin-top: 20px;
+}
+
+.infoText {
+  color: #37aaf2;
+}
+
+.servicesContainer {
+  margin-top: 20px;
+}
+
+.card {
+  padding: 12px !important;
+  border-radius: 12px !important;
+  background: #f9f9f9 !important;
+  box-shadow: none !important;
+  min-height: 228px !important;
+  max-height: auto !important;
+}
+
+.checkBox {
+  position: absolute !important;
+  left: 1px !important;
+  top: 1px !important;
+  padding: 5px !important;
+}
+
+.infoBox {
+  flex: 1;
+  margin-left: 8px;
+}
+
+.infoText {
+  line-height: 20px;
+}
+
+.infoToolTip {
+  padding: 0 8px;
+}
+
+.textArea {
+  margin: 12px 0 8px 0;
+  width: 100%;
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  border-color: #cccccc;
+  height: 70px !important;
+}
+
+.textAreaWithError {
+  margin: 12px 0 8px 0;
+  width: 100%;
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  border-color: #cccccc;
+  height: 70px !important;
+  border-color: red;
+}
+
+.priceInput {
+  height: 36px;
+  /* margin-bottom: 12px; */
+  border-radius: 12px !important;
+  max-width: 239px;
+}
+
+.priceInputWithError {
+  height: 36px;
+  margin-bottom: 12px;
+  border-radius: 12px !important;
+  max-width: 239px;
+  border-color: red !important;
+}
+
+.inviteButton {
+  border: 1px solid #cccccc;
+  width: fit-content;
+  background: #fff;
+}
+
+.inviteContainer {
+  width: 552px;
+}
+
+.heading {
+  font-size: 24px;
+}
+
+.bodyText {
+  margin: 16px 0 !important;
+}
+
+.createLinkButton {
+  height: 48px !important;
+}
+
+.linkContainer {
+  display: flex;
+  margin: 16px 0;
+}
+
+.linkInput {
+  margin-right: 16px !important;
+}
+
+.copyLinkButton {
+  width: 205px !important;
+  padding: 12px 28px !important;
+  height: 48px !important;
+}
+
+.copyLinkText {
+  display: flex;
+  align-items: center;
+}
+
+.linkExpirationText {
+  color: #e32d2d !important;
+  font-weight: 600 !important;
+}
+
+.inputFieldBox {
+  margin-top: 20px;
+}
+
+.formLabel {
+  margin-bottom: 8px !important;
+}
+
+.usernameInput {
+  width: 100%;
+  background: #fff;
+  border-radius: 100px;
+}
+
+.birthDetailsBox {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  gap: 12px;
+}
+
+.genderBirthBox {
+  width: 100%;
+}
+
+.heightInput {
+  border-radius: 100px;
+  height: 48px;
+}
+
+.cardHeading {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.link {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.uploadPhotos {
+  text-align: left;
+  margin-bottom: 8px !important;
+}
+
+.uploadVideos {
+  text-align: left;
+  margin-bottom: 8px !important;
+}
+
+.mainHeader {
+  text-align: left;
+  padding: 40px 60px;
+  background-color: #ffd443;
+}
+
+.content {
+  padding: 15px 60px;
+}
+
+.imageHeader {
+  margin-bottom: 10px !important;
+}
+
+.imageListContent {
+  margin-bottom: 12px !important;
+}
+
+.imageGridHeader {
+  text-align: center;
+}
+
+.gamesCheckBox {
+  background: #fff !important;
+  width: 20px;
+  height: 20px;
+}
+
+.gamesCheckBox:hover {
+  background: #fff !important;
+  width: 20px;
+  height: 20px;
+}
+
+.gameTimeSelect {
+  background: #fff;
+  border-radius: 12px;
+  width: 105px !important;
+  margin-left: 10px;
+  height: 36px;
+  min-width: 95px !important;
+}
+
+.uploadButton {
+  padding: 8px 16px !important;
+  border: 1px solid #cccccc !important;
+  background: #fff !important;
+  height: 36px !important;
+  width: fit-content !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  line-height: 20px !important;
+}
+
+.audioBox path {
+  fill: #000;
+}
+
+.audioBox svg {
+  height: 125px !important;
+  display: flex !important;
+  transform: none !important;
+}
+
+.cardGrid {
+  padding: 12px;
+}
+
+@media screen and (max-width: 1024px) {
+  .centeredBox {
+    margin: 100px 140px;
+  }
+
+  .selectPrivacyBoxForMobile {
+    display: none;
+  }
+
+  .rulesBoxContainer {
+    padding: 16px 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .centeredBox {
+    margin: 24px 16px;
+    padding: 24px 16px;
+    height: fit-content;
+  }
+
+  .selectPrivacyBoxForMobile {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .rulesBoxContainer {
+    padding: 16px;
+  }
+
+  .imageBoxContainer {
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+
+  .detailsBox {
+    margin-bottom: 24px !important;
+  }
+
+  .cardGrid {
+    padding: 12px 0;
+  }
+
+  .recordBox {
+    padding: 10px;
+  }
+}
+
+.voice_rules_animation svg {
+  background-color: #000 !important;
+  border-radius: 6px;
+  padding: 3px;
+}
