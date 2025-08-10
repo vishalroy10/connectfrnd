@@ -1,5 +1,4 @@
 import '../globals.css';
-import { Inter } from 'next/font/google';
 import ThemeProvider from '@/common/theme';
 import { Providers } from '@/store/provider';
 import Header from '@/components/organisms/header';
@@ -10,8 +9,6 @@ import Audio from '@/components/atoms/audio';
 import AuthProvider from '@/utility/AuthProvider';
 import ModalContext from '@/utility/ModalContext';
 import { usePathname } from 'next/navigation';
-
-const inter = Inter({ subsets: ['latin'] });
 
 // export const metadata: Metadata = {
 //   title: 'Rent Babe',
@@ -30,7 +27,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className={inter.className}>
+      <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>
             <AuthProvider pathName={pathName}>
