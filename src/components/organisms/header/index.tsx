@@ -86,7 +86,11 @@ const Header = () => {
         maxWidth={'100vw'}
         top={0}
         zIndex={100}
-        bgcolor="#FFF"
+        bgcolor="rgba(255, 255, 255, 0.5)"
+        sx={{
+          backdropFilter: 'blur(10px)',
+          WebkitBackdropFilter: 'blur(10px)',
+        }}
       >
         <Box display="flex" gap={8} alignItems="center">
           <Box onClick={() => router.push(`/`)} sx={{ cursor: 'pointer' }}>
