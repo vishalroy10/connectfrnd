@@ -51,7 +51,7 @@ const Dropdown = ({
           renderValue={() => value || placeholderText}
           IconComponent={(props) => <ExpandMoreIcon {...props} />}
           style={{ backgroundColor: background ? '#F0F0F0' : 'inherit' }}
-          // value={value}
+          value={value}
           MenuProps={{ sx: { '.MuiPaper-root': { borderRadius: 3 } } }}
           onChange={onChange}
           name={name}
